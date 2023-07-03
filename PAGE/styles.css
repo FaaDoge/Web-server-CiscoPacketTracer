@@ -1,0 +1,119 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #293241;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 0;
+  text-align: center;
+}
+
+section h2 {
+  color: #293241;
+}
+
+section p {
+  color: #555;
+}
+
+footer {
+  background-color: #293241;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-left.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.slide-right.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Estilos específicos para secciones */
+#inicio {
+  background-color: #a7bed3;
+  color: #293241;
+}
+
+#configuraciones {
+  background-color: #dfe6ed;
+  color: #293241;
+}
+
+#herramientas {
+  background-color: #eef2f7;
+  color: #293241;
+}
+
+#contacto {
+  background-color: #f8fafd;
+  color: #293241;
+}
+img {
+  max-width: 800px;
+  height: auto;
+}
